@@ -53,7 +53,7 @@ white #fdfdfd
     user-select: none;
 }
 .btn.zero {
-    grid-area: ;
+    grid-area: 100px;
     width: 150px;
     border-radius: 34px;
 }
@@ -61,7 +61,7 @@ white #fdfdfd
     filter: brightness(120%)
 }
 .btn:active {
-    filter: brightness(90%)
+    filter: brightness(50%)
 }
 .btn.bg-grey {
     background: #a6a6a6;
