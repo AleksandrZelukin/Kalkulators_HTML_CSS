@@ -40,12 +40,12 @@
 .buttons {
     display: grid;
     grid-template-areas: 
-    "ac plus-minus percent division"
+    "ac plus-minus pr div"
     "seven eigth nine multi"
     "four five siz minus"
     "one two three plus"
     "zero zero dot equal";
-    grid-gap: 7px;
+    grid-gap: 4px;
     /* padding: 10px; */
     justify-items: center;
     align-items: center;
@@ -58,7 +58,7 @@
     border-radius: 100%;
     text-align: center;
     line-height: 63px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     outline: none;
     user-select:none

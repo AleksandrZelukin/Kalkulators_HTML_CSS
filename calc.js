@@ -4,7 +4,7 @@ let sign = ''; //matemat operacija
 let finish = false;
 
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
-const action = ['-', '+', 'X', '/'];
+const action = ['-', '+', '*', '/'];
 
 const out = document.querySelector('.calc-screen p');
 
@@ -53,7 +53,7 @@ document.querySelector('.buttons').onclick = (event) => {
             case "-":
                 a = a - b;
                 break;
-            case "X":
+            case "*":
                 a = a * b;
                 break;
             case "/":
