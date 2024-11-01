@@ -64,6 +64,17 @@
     user-select:none
 
 }
+.btn2 {
+    width: 160px;
+    height: 40px;
+    background: #4076b5;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    outline: none;
+    user-select:none
+
+}
 .btn:hover {
     filter: brightness(130%);
 }
