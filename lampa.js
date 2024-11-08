@@ -4,4 +4,5 @@ function changeBackground(){
 	document.body.style.background = 'red';
 }
 
+
 newButton.addEventListener('click', changeBackground);
