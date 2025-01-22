@@ -1,7 +1,18 @@
-const newButton = document.getElementById('newButton');
+function pirmaPoga() {
+    document.getElementById('demo1').innerHTML = Date()
+  } 
 
-function changeBackground(){
-	document.body.style.background = 'red';
+function otraPoga() {
+  document.getElementById("demo2").innerHTML = "Sveiki, Aleksandr!"
 }
 
-newButton.addEventListener('click', changeBackground);
+function tresaPoga() {
+  document.getElementById("demo3").innerHTML = "Ārejais skrips darbojas!";
+}
+
+function myFunction4() {
+  document.getElementById("demo4").innerHTML = "Paldies par uzmanību!";
+}
+
+function myFunction4() { document.getElementById("demo4").innerHTML = "Paldies par uzmanību!";
+  
