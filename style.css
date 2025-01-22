@@ -65,13 +65,17 @@
 
 }
 .btn2 {
+    display:grid;
+    grid-template-areas:
+    ""
     width: 160px;
     height: 40px;
+    border-radius: 20%;
     background: #4076b5;
     text-align: center;
     line-height: 30px;
-    cursor: pointer;
-    outline: none;
+    cursor:grabbing;
+    outline:invert;
     user-select:none
 
 }
